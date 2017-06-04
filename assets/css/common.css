@@ -1,5 +1,4 @@
 .menu {
-    
     position: fixed;
     top: 0;
     left: 0;
@@ -19,6 +18,15 @@
 	color: #FF00BF;
 }
 
+.seccion-navDos{
+    max-height: 80px;
+    align-items: center;
+    color: #333447;
+    font-size: 19px;
+    text-decoration: none;
+    z-index: 1;
+}
+
 .flex-container {
     display: flex;
 }
@@ -27,6 +35,9 @@
   text-transform: uppercase;
 }
 
+.hide{
+  display: none;
+}
 
 /* REGISTRO */
 
@@ -34,4 +45,31 @@
 	width: 100%;
 	max-width: 1400px;
 	height: 100%;
+}
+
+/* INFORMACION */
+.text{
+	width: 107%;
+    margin-left: 12%;
+    color: #f3f3f5;
+    margin-top: 13%;
+}
+
+.text h2{
+    margin-bottom: 5px;
+    font-size: 29px;
+    margin-left: 44px;
+}
+
+.text p{
+	margin-left: 44px;
+	 margin-top: 12px;
+
+}
+
+/* FOOTER */
+.footer-section{
+    margin-top: 56px;
+    width: 13.3%;
+    margin-left: 53px;
 }

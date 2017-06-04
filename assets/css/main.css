@@ -51,10 +51,68 @@
 	cursor: pointer;
 }
 
+/* NAV DOS */
+#navDos {
+	background-color: white;
+	width: 100%;
+	justify-content: flex-start;
+}
+
+.logo-container{
+	margin-left: auto;
+    margin-right: 20px;
+}
+
+#logo-pink{
+    width: 15%;
+    max-height: 80px;
+	padding: 15px;
+	margin-left: 82px;
+}
+
+#seccionesDos{
+    width: 84%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+	justify-content: space-around;
+    margin-right: 170px;
+	font-weight: 200;
+}
+
+#seccionesDos .btndos button{
+    width: 125%;
+    height: 37px;
+    border-radius: 4px;
+    border: solid #FF00BF 2px;
+    background-color: Transparent;
+    color: #FF00BF;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+#seccionesDos button{
+    width: 22%;
+    height: 37px;
+    border-radius: 4px;
+    border: solid #333447 1px;
+    background-color: Transparent;
+    color: #333447;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+#seccionesDos button:hover{
+	color: #FF00BF;
+	cursor: pointer;
+}
+
+
 /* REGISTRO */
 #video{
 	width: 100%;
     height: 100%;
+	z-index: -1;
 }
 #registro{
 	width: 40%;
@@ -67,9 +125,75 @@
 	color: white;
 }
 
+/* INFORMACION */
+
+#informacion{
+	    margin-left: 85px;
+}
+
+.informacion{
+	background: linear-gradient(#76278f,#2B1E66);
+	width: 100%;
+    height: 646px;
+}
+
+.phone img{
+    height: 76%;
+    margin-top: 73px;
+    margin-left: 34%;
+}
+
 /* FOOTER */
 footer{
 	width: 100%;
-	height: 400px;
+	height: 600px;
 	background-color: #333447;
+}
+
+.footer-section h3{
+	color: #bfc7d9;
+	margin-bottom: 23px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.footer-section ul {
+	list-style-type: none;
+}
+
+.footer-section ul li{
+	margin-top: 10px;
+}
+.footer-section a{
+	text-decoration: none;
+    color: #f3f3f5;
+}
+
+.footer-section a:hover{
+	color:#FF00BF;
+}
+
+.footer-section img{
+    width: 108%;
+    margin-left: 254px;
+    margin-top: 10px;
+}
+
+.social-media{
+    width: 50%;
+    height: 0px;
+    margin-top: 301px;
+    margin-left: -574px;
+    align-self: center;
+    text-align: center;
+    color: #f3f3f5;
+}
+
+.social-media img{
+    width: 12%;
+    align-items: center;
+}
+
+.social-media p{
+	margin-top: 14px;
 }
