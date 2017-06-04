@@ -1,5 +1,5 @@
 .menu {
-    background-color: white;
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -12,6 +12,7 @@
     color: white;
     font-size: 19px;
     text-decoration: none;
+    z-index: 1;
 }
 
 .seccion-nav:hover{
@@ -20,4 +21,17 @@
 
 .flex-container {
     display: flex;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+
+/* REGISTRO */
+
+.registro-container{
+	width: 100%;
+	max-width: 1400px;
+	height: 100%;
 }
