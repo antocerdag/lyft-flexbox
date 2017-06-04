@@ -5,12 +5,13 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400" rel="stylesheet">
 	<title>Lyft</title>
 	<script src="https://use.fontawesome.com/be0dd1e218.js"></script>
+
 	<link rel="stylesheet" href="assets/css/common.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 <body>
 	<!-- NAV BAR -->
-	<nav class="menu flex-container" id="nav-bar">
+	<nav class="navbar menu flex-container" id="nav-bar">
 		<div class="logo-container">
 			<img id="logo-white" src="assets/img/logo-white.png" alt="Logo">
 		</div>
@@ -42,17 +43,24 @@
 		
 	</nav>
 	<!-- REGISTRO -->
-	<section class="registro-container flex-container">
+	<section class="registro-container ">
 		<video id="video" src="assets/img/hero-video.mp4"></video>
 		<div id="registro">
-			<h1 class="text-uppercase">turn miles into money</h1>
-			<p>sign up to drive with lyft</p>
-			<input id="phone" type="text" value="Phone Number" required="">
-			<button id="become-driver">BECOME A DRIVER</button>
-			<a class="text-uppercase" href="#">sign up to ride</a>
-			<p>Already applied? Check the status of your application here.</p>
-			<p>Earn money for inviting friends to drive. Learn more</p>
+			<h1 class="text-uppercase">turn miles </h1>
+			<h2 class="text-uppercase">into money</h2>
+			<p id="signup" class="text-uppercase">sign up to drive with lyft</p>
+			<input id="phone" type="num" placeholder="Phone number" required="">
+			<span id="inputnuevo"></span>
+			<hr>
+			<button id="become-driver">Become a driver</button>
+			<a href="#">Sign Up To Ride</a>
+			<div class="bajada">
+				<p class="small-text">Already applied? <a class="special-text" href="">Check the status of your application here.</a></p>
+				<p class="small-text">Earn money for inviting friends to drive. <a class="special-text" href="">Learn more</a></p>
+			</div>
+			
 		</div>
+
 	</section>
 	<!-- INFORMACIÓN -->
 	<section class="informacion flex-container">
@@ -78,6 +86,27 @@
 		
 	</section>
 	<!-- VIDEOS -->
+	<section class="video2 flex-container">
+		<div class="watch">
+			<h5 class="text-uppercase">watch</h5>
+			<h2 class="text-uppercase">Amplyfy your ride</h2>
+			<p>Lyft’s new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide, the device makes it easy for passengers and drivers to find each other.</p>
+		</div>
+		<div id="video2">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/fLSmUWOYpKw" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</section>
+	<section class="video3 flex-container" >
+		<div class="video3">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/v8nyGzOLsdw" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="june">
+			<h5 class="text-uppercase">watch</h5>
+			<h2 class="text-uppercase">June</h2>
+			<p>In an animated short film by Academy Award-winner John Kahrs, a lonely widow in historic South Chicago is empowered to start sharing the ride — and sharing her life, too.</p>
+		</div>
+		
+	</section>
 	<!-- INFORMACIÓN -->
 	<!-- FOOTER -->
 	<footer class="flex-container">
@@ -164,6 +193,7 @@
 			<p><i class="fa fa-copyright" aria-hidden="true"></i> 2017 Lyft.Inc TermsPrivacy</p>
 		</div>
 	</footer>
+
 <script src="assets/javascript/main.js"></script>
 </body>
 </html>

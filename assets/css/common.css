@@ -42,9 +42,22 @@
 /* REGISTRO */
 
 .registro-container{
-	width: 100%;
-	max-width: 1400px;
-	height: 100%;
+    width: 100%;
+    max-width: 1400px;
+    height: 100%;
+    display: flex;
+}
+
+.small-text{
+	margin-left: 10%;
+    margin-top: 14px;
+    font-size: 11px;
+}
+
+#registro .bajada a{
+   font-size: 11px;
+   margin-left: 3px;
+   color: #FF00BF;
 }
 
 /* INFORMACION */
