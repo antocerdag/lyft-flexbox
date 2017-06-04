@@ -1,15 +1,11 @@
-/*window.addeventlistener("scroll",scroll());
+window.onscroll = function() {
 
-
-function scroll(){
-	var navBarNuevo = document.getElementsByClassName("navDos");
+	var navBarNuevo = document.getElementsByClassName("navDos"); // llamo el nav que esta oculto
 	var distscroll= window.pageYOffset || document.documentElement.scrollTop;
-	if (distscroll > 300 ){
-		//alert("hola");
+	if (distscroll > 300 ){ // al hacer scroll se debe eliminar la clase hide del nav que esta oculto
 		navBarNuevo.classList.remove("hide");
 	}
-}
-*/
+};
 
 /* VALIDACION FORMULARIO */ 
 
