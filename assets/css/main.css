@@ -1,38 +1,38 @@
 *{
-	font-family: 'Montserrat', sans-serif;
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* NAV BAR */
 
 #nav-bar {
-	background-color: rgba(0,0,0,0.1);
-	width: 100%;
-	justify-content: flex-start;
+    background-color: rgba(0,0,0,0.1);
+    width: 100%;
+    justify-content: flex-start;
 }
 
 .logo-container{
-	    margin-left: auto;
+        margin-left: auto;
     margin-right: 20px;
 }
 
 #logo-white{
     width: 15%;
     max-height: 80px;
-	padding: 15px;
-	margin-left: 82px;
+    padding: 15px;
+    margin-left: 82px;
 }
 
 #secciones{
-	width: 63%;
+    width: 63%;
     height: 80px;
     display: flex;
     align-items: center;
-	justify-content: space-around;
+    justify-content: space-around;
     margin-right: 170px;
-	font-weight: 200;
+    font-weight: 200;
 }
 
 #secciones button{
@@ -43,31 +43,31 @@
     background-color: Transparent;
     color: white;
     font-size: 17px;
-	font-weight: 200;
+    font-weight: 200;
 }
 
 #secciones button:hover{
-	color: #FF00BF;
-	cursor: pointer;
+    color: #FF00BF;
+    cursor: pointer;
 }
 
 /* NAV DOS */
 #navDos {
-	background-color: white;
-	width: 100%;
-	justify-content: flex-start;
+    background-color: white;
+    width: 100%;
+    justify-content: flex-start;
 }
 
 .logo-container{
-	margin-left: auto;
+    margin-left: auto;
     margin-right: 20px;
 }
 
 #logo-pink{
     width: 15%;
     max-height: 80px;
-	padding: 15px;
-	margin-left: 82px;
+    padding: 15px;
+    margin-left: 82px;
 }
 
 #seccionesDos{
@@ -75,9 +75,9 @@
     height: 80px;
     display: flex;
     align-items: center;
-	justify-content: space-around;
+    justify-content: space-around;
     margin-right: 170px;
-	font-weight: 200;
+    font-weight: 200;
 }
 
 #seccionesDos .btndos button{
@@ -103,16 +103,16 @@
 }
 
 #seccionesDos button:hover{
-	color: #FF00BF;
-	cursor: pointer;
+    color: #FF00BF;
+    cursor: pointer;
 }
 
 
 /* REGISTRO */
 #video{
-	width: 100%;
+    width: 100%;
     height: 100%;
-	z-index: -1;
+    z-index: -1;
 }
 #registro{
     width: 40%;
@@ -139,7 +139,7 @@
 }
 
 #registro #signup{
-	margin-left: 10%;
+    margin-left: 10%;
     font-size: 17px;
     font-weight: 200;
     color: #352384;
@@ -154,7 +154,7 @@
 }
 
 #registro hr{
-	margin-left: 10%;
+    margin-left: 10%;
     width: 77%;
     color: rgba(0,0,0,0.5);
 }
@@ -180,21 +180,21 @@
 }
 
 .bajada{
-	margin-top: 26px;
+    margin-top: 26px;
 }
 
 .bajada p{
-	margin-top:5px;
+    margin-top:5px;
 }
 /* INFORMACION */
 
 #informacion{
-	    margin-left: 85px;
+        margin-left: 85px;
 }
 
 .informacion{
-	background: linear-gradient(#76278f,#2B1E66);
-	width: 100%;
+    background: linear-gradient(#76278f,#2B1E66);
+    width: 100%;
     height: 646px;
 }
 
@@ -206,8 +206,8 @@
 
 /* VIDEOS */
 .video3{
-	width: 100%;
-	height:390px;
+    width: 100%;
+    height:390px;
 }
 
 .june{
@@ -223,7 +223,7 @@
 }
 
 .june h2{
-	margin-left: 8%;
+    margin-left: 8%;
     margin-top: 50px;
 }
 .june h5{
@@ -234,7 +234,7 @@
 }
 
 .video3 iframe{
-	width: 100%;
+    width: 100%;
     height: 390px;
 
 }
@@ -242,32 +242,32 @@
 
 /* FOOTER */
 footer{
-	width: 100%;
-	height: 600px;
-	background-color: #333447;
+    width: 100%;
+    height: 600px;
+    background-color: #333447;
 }
 
 .footer-section h3{
-	color: #bfc7d9;
-	margin-bottom: 23px;
+    color: #bfc7d9;
+    margin-bottom: 23px;
     font-size: 24px;
     font-weight: 300;
 }
 
 .footer-section ul {
-	list-style-type: none;
+    list-style-type: none;
 }
 
 .footer-section ul li{
-	margin-top: 10px;
+    margin-top: 10px;
 }
 .footer-section a{
-	text-decoration: none;
+    text-decoration: none;
     color: #f3f3f5;
 }
 
 .footer-section a:hover{
-	color:#FF00BF;
+    color:#FF00BF;
 }
 
 .footer-section img{
@@ -277,7 +277,7 @@ footer{
 }
 
 .footer-section img:hover{
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .social-media{
@@ -296,5 +296,5 @@ footer{
 }
 
 .social-media p{
-	margin-top: 14px;
+    margin-top: 14px;
 }
