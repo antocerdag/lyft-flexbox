@@ -1,11 +1,18 @@
-window.onscroll = function() {
+function cambionav(){
 
-	var navBarNuevo = document.getElementsByClassName("navDos"); // llamo el nav que esta oculto
+	var navBarNuevo = document.getElementById("nav-bar"); // llamo el nav que esta oculto
+	var logo= document.getElementById('logo-white');
 	var distscroll= window.pageYOffset || document.documentElement.scrollTop;
-	if (distscroll > 300 ){ // al hacer scroll se debe eliminar la clase hide del nav que esta oculto
-		navBarNuevo.classList.remove("hide");
+	if (distscroll > 100 ){ // al hacer scroll se debe eliminar la clase hide del nav que esta oculto
+		document.getElementById('nav-bar').classList.add('hide');
+        document.getElementById('navDos').classList.remove('hide');
+
+	}else{
+		document.getElementById('navDos').classList.add('hide');
+        document.getElementById('nav-bar').classList.remove('hide');
 	}
 };
+window.addEventListener('scroll' , cambionav)
 
 /* VALIDACION FORMULARIO */ 
 

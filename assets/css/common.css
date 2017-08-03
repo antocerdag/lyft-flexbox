@@ -21,11 +21,13 @@
 .seccion-navDos{
     max-height: 80px;
     align-items: center;
-    color: #333447;
+    color:#FF00BF;
     font-size: 19px;
     text-decoration: none;
     z-index: 1;
 }
+
+
 
 .flex-container {
     display: flex;
